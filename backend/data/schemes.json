@@ -1,0 +1,2685 @@
+[
+  {
+    "schemeCode": "MP001",
+    "slug": "pm-kisan-samman-nidhi",
+    "name": "PM-KISAN Samman Nidhi",
+    "shortDescription": "Income support of Rs 6,000 per year to eligible farmer families in three instalments.",
+    "sector": "agriculture",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "department": "Ministry of Agriculture & Farmers Welfare",
+    "targetBeneficiary": "Farmer families owning cultivable land",
+    "eligibilityText": "Landholding farmer families; certain higher-income / institutional landholders are excluded.",
+    "benefits": "Rs 6,000 per year in three equal instalments by DBT.",
+    "incomeLimitText": "No explicit limit; exclusion categories apply",
+    "applicationMode": "Online / CSC",
+    "applicationSteps": [
+      "Visit pmkisan.gov.in or nearest CSC",
+      "Select New Farmer Registration",
+      "Enter Aadhaar and land details",
+      "Complete eKYC",
+      "Track status via Know Your Status"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Land ownership records",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      },
+      {
+        "name": "Mobile number",
+        "required": false
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "farmer"
+      ],
+      "requiresLand": true
+    },
+    "applyUrl": "https://pmkisan.gov.in",
+    "officialUrl": "https://pmkisan.gov.in",
+    "sourceUrl": "https://pmkisan.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Exclusion list and eKYC rules change; confirm on portal.",
+    "tags": [
+      "farmer",
+      "income support",
+      "kisan",
+      "pm kisan"
+    ]
+  },
+  {
+    "schemeCode": "MP002",
+    "slug": "mukhyamantri-kisan-kalyan-yojana-mkky",
+    "name": "Mukhyamantri Kisan Kalyan Yojana (MKKY)",
+    "shortDescription": "State top-up paid to MP farmers who are PM-KISAN beneficiaries.",
+    "sector": "agriculture",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Farmer Welfare & Agriculture Development Dept, Madhya Pradesh",
+    "department": "Farmer Welfare & Agriculture Development Dept, Madhya Pradesh",
+    "targetBeneficiary": "PM-KISAN beneficiary farmers of Madhya Pradesh",
+    "eligibilityText": "Permanent MP residents who are eligible PM-KISAN beneficiaries; no separate application reported.",
+    "benefits": "Additional state assistance via DBT. Recent reports say Rs 6,000/yr (3 x Rs 2,000); older sources say Rs 4,000/yr - CONFIRM AMOUNT.",
+    "incomeLimitText": "Same as PM-KISAN",
+    "applicationMode": "Online (auto-linked to PM-KISAN)",
+    "applicationSteps": [
+      "Ensure PM-KISAN registration and eKYC are complete",
+      "Check beneficiary status on SAARA portal using PM-KISAN number / Aadhaar / account"
+    ],
+    "documents": [
+      {
+        "name": "PM-KISAN registration number",
+        "required": true
+      },
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "farmer"
+      ],
+      "requiresLand": true
+    },
+    "applyUrl": "https://saara.mp.gov.in",
+    "officialUrl": "https://saara.mp.gov.in",
+    "sourceUrl": "https://saara.mp.gov.in",
+    "status": "active",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L1 - Cross-checked with news/secondary sources (16 Nov 2026); confirm on official source",
+    "verificationNotes": "CONFLICT: sources disagree on annual amount (Rs 4,000 vs Rs 6,000). Latest instalment reported 27 Jul 2026. Helpline reported: 0755-2525804.",
+    "tags": [
+      "farmer",
+      "kisan kalyan",
+      "state top up",
+      "mp"
+    ]
+  },
+  {
+    "schemeCode": "MP003",
+    "slug": "pradhan-mantri-fasal-bima-yojana-pmfby",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "shortDescription": "Crop insurance against loss from natural calamities, pests and disease.",
+    "sector": "agriculture",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "department": "Ministry of Agriculture & Farmers Welfare",
+    "targetBeneficiary": "Farmers growing notified crops",
+    "eligibilityText": "Farmers (incl. sharecroppers/tenants) growing notified crops in notified areas.",
+    "benefits": "Insurance cover for notified crops at a low farmer-paid premium.",
+    "incomeLimitText": "None",
+    "applicationMode": "Online / Bank / CSC",
+    "applicationSteps": [
+      "Apply via bank, CSC or pmfby.gov.in before the season cut-off",
+      "Submit sowing details and pay premium"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      },
+      {
+        "name": "Land records / tenancy agreement",
+        "required": true
+      },
+      {
+        "name": "Sowing declaration",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "farmer"
+      ]
+    },
+    "applyUrl": "https://pmfby.gov.in",
+    "officialUrl": "https://pmfby.gov.in",
+    "sourceUrl": "https://pmfby.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Season-wise cut-off dates and premium rates must be checked each season.",
+    "tags": [
+      "crop insurance",
+      "farmer",
+      "fasal bima"
+    ]
+  },
+  {
+    "schemeCode": "MP004",
+    "slug": "kisan-credit-card-kcc",
+    "name": "Kisan Credit Card (KCC)",
+    "shortDescription": "Short-term revolving credit for cultivation and allied needs at concessional interest.",
+    "sector": "agriculture",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Agriculture / Banks",
+    "department": "Ministry of Agriculture / Banks",
+    "targetBeneficiary": "Farmers, tenant farmers, sharecroppers",
+    "eligibilityText": "Farmers (owner cultivators, tenants, sharecroppers) and allied-activity farmers.",
+    "benefits": "Revolving credit limit with interest subvention on timely repayment.",
+    "incomeLimitText": "None",
+    "applicationMode": "Bank branch / Online",
+    "applicationSteps": [
+      "Visit bank branch or KCC campaign",
+      "Submit KCC application with documents",
+      "Bank verifies and issues card"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Land records",
+        "required": true
+      },
+      {
+        "name": "Passport size photograph",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 18,
+      "maxAge": 75,
+      "occupations": [
+        "farmer"
+      ]
+    },
+    "applyUrl": "https://pmkisan.gov.in",
+    "officialUrl": "https://pmkisan.gov.in",
+    "sourceUrl": "https://pmkisan.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Age limits and limit amounts vary by bank; verify.",
+    "tags": [
+      "farmer",
+      "loan",
+      "credit",
+      "kcc"
+    ]
+  },
+  {
+    "schemeCode": "MP005",
+    "slug": "soil-health-card-scheme",
+    "name": "Soil Health Card Scheme",
+    "shortDescription": "Free soil testing with crop-wise nutrient recommendations.",
+    "sector": "agriculture",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Agriculture & Farmers Welfare",
+    "department": "Ministry of Agriculture & Farmers Welfare",
+    "targetBeneficiary": "All farmers",
+    "eligibilityText": "All farmers.",
+    "benefits": "Soil Health Card with fertiliser recommendations.",
+    "incomeLimitText": "None",
+    "applicationMode": "Offline / Online",
+    "applicationSteps": [
+      "Contact local agriculture office or KVK",
+      "Submit soil sample",
+      "Collect card"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Land details (survey number)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "farmer"
+      ]
+    },
+    "applyUrl": "https://soilhealth.dac.gov.in",
+    "officialUrl": "https://soilhealth.dac.gov.in",
+    "sourceUrl": "https://soilhealth.dac.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Confirm current cycle status.",
+    "tags": [
+      "soil",
+      "farmer",
+      "fertiliser"
+    ]
+  },
+  {
+    "schemeCode": "MP006",
+    "slug": "bhavantar-bhugtan-yojana",
+    "name": "Bhavantar Bhugtan Yojana",
+    "shortDescription": "Price-deficiency payment when market price falls below the notified benchmark price for notified crops.",
+    "sector": "agriculture",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Farmer Welfare & Agriculture Development Dept, Madhya Pradesh",
+    "department": "Farmer Welfare & Agriculture Development Dept, Madhya Pradesh",
+    "targetBeneficiary": "Registered farmers growing notified crops in MP",
+    "eligibilityText": "Farmers registered on e-Uparjan for the notified crop and season. Crops and season vary.",
+    "benefits": "Difference between benchmark and modal market price paid by DBT (as notified).",
+    "incomeLimitText": "None",
+    "applicationMode": "Online (e-Uparjan)",
+    "applicationSteps": [
+      "Register on MP e-Uparjan during the notified window",
+      "Sell produce in mandi as per rules",
+      "Payment by DBT"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      },
+      {
+        "name": "Land records",
+        "required": true
+      },
+      {
+        "name": "e-Uparjan registration",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "farmer"
+      ]
+    },
+    "applyUrl": "https://mpeuparjan.nic.in",
+    "officialUrl": "https://mpeuparjan.nic.in",
+    "sourceUrl": "https://mpeuparjan.nic.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Seasonal / not run every year. Confirm whether active for the current season.",
+    "tags": [
+      "farmer",
+      "msp",
+      "price deficiency",
+      "oilseed",
+      "mp"
+    ]
+  },
+  {
+    "schemeCode": "MP007",
+    "slug": "msp-procurement-farmer-registration-on-mp-e-uparjan",
+    "name": "MSP Procurement - Farmer Registration on MP e-Uparjan",
+    "shortDescription": "Farmer registration for government procurement of notified crops at Minimum Support Price in MP.",
+    "sector": "agriculture",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Food, Civil Supplies & Consumer Protection Dept, Madhya Pradesh",
+    "department": "Food, Civil Supplies & Consumer Protection Dept, Madhya Pradesh",
+    "targetBeneficiary": "Farmers selling wheat, paddy, pulses, etc. at MSP",
+    "eligibilityText": "Farmers of MP with crop and land details on record; registration window opens before each procurement season.",
+    "benefits": "Sale of produce to government at MSP with payment to bank account.",
+    "incomeLimitText": "None",
+    "applicationMode": "Online",
+    "applicationSteps": [
+      "Register on mpeuparjan.nic.in during the registration window",
+      "Receive slot / procurement centre",
+      "Sell produce and receive payment"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Samagra ID",
+        "required": true
+      },
+      {
+        "name": "Land records (Khasra)",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "farmer"
+      ]
+    },
+    "applyUrl": "https://mpeuparjan.nic.in",
+    "officialUrl": "https://mpeuparjan.nic.in",
+    "sourceUrl": "https://mpeuparjan.nic.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Dates and crops change each season.",
+    "tags": [
+      "msp",
+      "procurement",
+      "wheat",
+      "paddy",
+      "farmer",
+      "e-uparjan"
+    ]
+  },
+  {
+    "schemeCode": "MP008",
+    "slug": "interest-free-crop-loan-shunya-pratishat-byaj-fasal-rin-yojana",
+    "name": "Interest-Free Crop Loan (Shunya Pratishat Byaj Fasal Rin Yojana)",
+    "shortDescription": "Short-term crop loans at zero interest for farmers who repay on time.",
+    "sector": "agriculture",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Cooperative Dept / Farmer Welfare Dept, Madhya Pradesh",
+    "department": "Cooperative Dept / Farmer Welfare Dept, Madhya Pradesh",
+    "targetBeneficiary": "Farmers taking short-term crop loans from cooperative banks",
+    "eligibilityText": "MP farmers taking seasonal crop loans through cooperative credit societies / banks, repaying within the due date.",
+    "benefits": "Interest subvention so the farmer pays no interest on prompt repayment (loan limit per official guidelines).",
+    "incomeLimitText": "None",
+    "applicationMode": "Offline (Cooperative society / bank)",
+    "applicationSteps": [
+      "Approach primary agriculture cooperative society or bank",
+      "Apply for crop loan",
+      "Repay by due date to avail zero interest"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Land records",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      },
+      {
+        "name": "KCC details",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "farmer"
+      ]
+    },
+    "applyUrl": "https://www.mp.gov.in",
+    "officialUrl": "https://www.mp.gov.in",
+    "sourceUrl": "https://www.mp.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Deep link to the official order/page still to be found. Verify loan limit and continuation.",
+    "tags": [
+      "crop loan",
+      "zero interest",
+      "cooperative",
+      "farmer",
+      "mp"
+    ]
+  },
+  {
+    "schemeCode": "MP009",
+    "slug": "post-matric-scholarship-for-sc-students",
+    "name": "Post Matric Scholarship for SC Students",
+    "shortDescription": "Financial assistance to SC students pursuing post-matric studies.",
+    "sector": "education",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "department": "Ministry of Social Justice & Empowerment",
+    "targetBeneficiary": "Scheduled Caste students after Class 10",
+    "eligibilityText": "SC students studying after Class 10 with family income within the prescribed limit.",
+    "benefits": "Maintenance allowance and reimbursement of compulsory fees.",
+    "incomeLimitText": "Rs 2.5 lakh per annum (verify)",
+    "applicationMode": "Online (NSP)",
+    "applicationSteps": [
+      "Register on scholarships.gov.in",
+      "Fill application and upload documents",
+      "Institute and nodal officer verification"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Caste certificate",
+        "required": true
+      },
+      {
+        "name": "Income certificate",
+        "required": true
+      },
+      {
+        "name": "Previous marksheet",
+        "required": true
+      },
+      {
+        "name": "Admission / fee receipt",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "SC"
+      ],
+      "maxAnnualIncome": 250000
+    },
+    "applyUrl": "https://scholarships.gov.in",
+    "officialUrl": "https://scholarships.gov.in",
+    "sourceUrl": "https://scholarships.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Income limit and rates change; confirm for current year.",
+    "tags": [
+      "scholarship",
+      "sc",
+      "student",
+      "post matric"
+    ]
+  },
+  {
+    "schemeCode": "MP010",
+    "slug": "post-matric-scholarship-for-st-students",
+    "name": "Post Matric Scholarship for ST Students",
+    "shortDescription": "Financial assistance to ST students pursuing post-matric studies.",
+    "sector": "education",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Tribal Affairs / Tribal Welfare Dept, MP",
+    "department": "Ministry of Tribal Affairs / Tribal Welfare Dept, MP",
+    "targetBeneficiary": "Scheduled Tribe students after Class 10",
+    "eligibilityText": "ST students studying after Class 10 with family income within the prescribed limit.",
+    "benefits": "Maintenance allowance and compulsory fee reimbursement.",
+    "incomeLimitText": "Rs 2.5 lakh per annum (verify)",
+    "applicationMode": "Online (NSP / MP scholarship portal)",
+    "applicationSteps": [
+      "Register on the scholarship portal",
+      "Fill application and upload documents",
+      "Institute verification"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Caste certificate",
+        "required": true
+      },
+      {
+        "name": "Income certificate",
+        "required": true
+      },
+      {
+        "name": "Previous marksheet",
+        "required": true
+      },
+      {
+        "name": "Admission / fee receipt",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "ST"
+      ],
+      "maxAnnualIncome": 250000
+    },
+    "applyUrl": "https://scholarships.gov.in",
+    "officialUrl": "https://scholarships.gov.in",
+    "sourceUrl": "https://scholarships.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Check whether MP applications are routed via state portal.",
+    "tags": [
+      "scholarship",
+      "st",
+      "tribal",
+      "student",
+      "post matric"
+    ]
+  },
+  {
+    "schemeCode": "MP011",
+    "slug": "pm-yasasvi-scholarship-obc-ebc-dnt",
+    "name": "PM YASASVI Scholarship (OBC / EBC / DNT)",
+    "shortDescription": "Pre-matric and post-matric scholarships for OBC, EBC and denotified tribe students.",
+    "sector": "education",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Social Justice & Empowerment",
+    "department": "Ministry of Social Justice & Empowerment",
+    "targetBeneficiary": "OBC, EBC and DNT students",
+    "eligibilityText": "OBC/EBC/DNT students with family income within the prescribed limit.",
+    "benefits": "Scholarship / fee support as per level of study.",
+    "incomeLimitText": "Rs 2.5 lakh per annum (verify)",
+    "applicationMode": "Online (NSP)",
+    "applicationSteps": [
+      "Register on scholarships.gov.in",
+      "Apply under PM YASASVI",
+      "Institute verification"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Caste certificate",
+        "required": true
+      },
+      {
+        "name": "Income certificate",
+        "required": true
+      },
+      {
+        "name": "Previous marksheet",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "student"
+      ],
+      "categories": [
+        "OBC"
+      ],
+      "maxAnnualIncome": 250000
+    },
+    "applyUrl": "https://scholarships.gov.in",
+    "officialUrl": "https://scholarships.gov.in",
+    "sourceUrl": "https://scholarships.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify category list, income limit and rates.",
+    "tags": [
+      "scholarship",
+      "obc",
+      "student",
+      "yasasvi"
+    ]
+  },
+  {
+    "schemeCode": "MP012",
+    "slug": "central-sector-scholarship-scheme-csss-for-college-students",
+    "name": "Central Sector Scholarship Scheme (CSSS) for College Students",
+    "shortDescription": "Scholarship for meritorious students from low-income families pursuing higher education.",
+    "sector": "education",
+    "level": "central",
+    "states": [],
+    "ministry": "Department of Higher Education",
+    "department": "Department of Higher Education",
+    "targetBeneficiary": "Meritorious college / university students",
+    "eligibilityText": "Students above the Class 12 merit cut-off in regular degree courses with family income within limit.",
+    "benefits": "Annual scholarship (about Rs 12,000 UG / Rs 20,000 PG - verify).",
+    "incomeLimitText": "Rs 4.5 lakh per annum (verify)",
+    "applicationMode": "Online (NSP)",
+    "applicationSteps": [
+      "Register on scholarships.gov.in",
+      "Apply under CSSS",
+      "Verification by institute and nodal officer"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Class 12 marksheet",
+        "required": true
+      },
+      {
+        "name": "Income certificate",
+        "required": true
+      },
+      {
+        "name": "Admission proof",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "student"
+      ],
+      "maxAnnualIncome": 450000
+    },
+    "applyUrl": "https://scholarships.gov.in",
+    "officialUrl": "https://scholarships.gov.in",
+    "sourceUrl": "https://scholarships.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Amounts and cut-offs revised periodically.",
+    "tags": [
+      "scholarship",
+      "merit",
+      "college",
+      "student",
+      "csss"
+    ]
+  },
+  {
+    "schemeCode": "MP013",
+    "slug": "mukhyamantri-medhavi-vidyarthi-yojana",
+    "name": "Mukhyamantri Medhavi Vidyarthi Yojana",
+    "shortDescription": "Fee support for MP students who score well in Class 12 and take admission in recognised institutions.",
+    "sector": "education",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Higher Education Dept, Madhya Pradesh",
+    "department": "Higher Education Dept, Madhya Pradesh",
+    "targetBeneficiary": "Meritorious MP students in higher education",
+    "eligibilityText": "MP students with minimum marks in Class 12 admitted to eligible institutions; family income within limit.",
+    "benefits": "Tuition fee reimbursement for eligible courses (as per guidelines).",
+    "incomeLimitText": "Rs 6 lakh per annum (verify)",
+    "applicationMode": "Online",
+    "applicationSteps": [
+      "Register on the MP scholarship portal",
+      "Fill application and upload documents",
+      "Verification and sanction"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Samagra ID",
+        "required": true
+      },
+      {
+        "name": "Class 12 marksheet",
+        "required": true
+      },
+      {
+        "name": "Income certificate",
+        "required": true
+      },
+      {
+        "name": "Admission proof",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "student"
+      ],
+      "maxAnnualIncome": 600000
+    },
+    "applyUrl": "https://scholarshipportal.mp.nic.in",
+    "officialUrl": "https://scholarshipportal.mp.nic.in",
+    "sourceUrl": "https://scholarshipportal.mp.nic.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify minimum-marks rule, income limit and institutes covered.",
+    "tags": [
+      "scholarship",
+      "medhavi",
+      "fee",
+      "student",
+      "mp"
+    ]
+  },
+  {
+    "schemeCode": "MP014",
+    "slug": "gaon-ki-beti-yojana",
+    "name": "Gaon Ki Beti Yojana",
+    "shortDescription": "Scholarship to encourage higher education of meritorious rural girl students.",
+    "sector": "education",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Higher Education / School Education Dept, Madhya Pradesh",
+    "department": "Higher Education / School Education Dept, Madhya Pradesh",
+    "targetBeneficiary": "Rural girl students of MP",
+    "eligibilityText": "Girls from rural MP who score the minimum required marks in Class 12 and continue higher studies.",
+    "benefits": "Scholarship as per official guidelines (amount to be verified).",
+    "incomeLimitText": "As per official guidelines",
+    "applicationMode": "Online",
+    "applicationSteps": [
+      "Apply through the MP scholarship / education portal",
+      "Upload documents",
+      "Verification and DBT"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Samagra ID",
+        "required": true
+      },
+      {
+        "name": "Class 12 marksheet",
+        "required": true
+      },
+      {
+        "name": "Residence proof",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "genders": [
+        "female"
+      ],
+      "occupations": [
+        "student"
+      ],
+      "residence": "rural"
+    },
+    "applyUrl": "https://www.educationportal.mp.gov.in",
+    "officialUrl": "https://www.educationportal.mp.gov.in",
+    "sourceUrl": "https://www.educationportal.mp.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Amount, marks threshold and whether still running must be verified.",
+    "tags": [
+      "scholarship",
+      "girl",
+      "rural",
+      "student",
+      "mp"
+    ]
+  },
+  {
+    "schemeCode": "MP015",
+    "slug": "mukhyamantri-seekho-kamao-yojana-mmsky",
+    "name": "Mukhyamantri Seekho Kamao Yojana (MMSKY)",
+    "shortDescription": "On-the-job training in registered establishments with a monthly stipend.",
+    "sector": "employment",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Skill Development Dept, Madhya Pradesh",
+    "department": "Skill Development Dept, Madhya Pradesh",
+    "targetBeneficiary": "Educated unemployed youth aged 18-29 in MP",
+    "eligibilityText": "Permanent MP resident aged 18-29, at least Class 12 pass (or ITI/diploma/graduate), registered on the portal.",
+    "benefits": "Monthly stipend by qualification: Rs 8,000 (12th), Rs 8,500 (ITI), Rs 9,000 (diploma), Rs 10,000 (graduate+).",
+    "incomeLimitText": "None reported",
+    "applicationMode": "Online",
+    "applicationSteps": [
+      "Register as candidate on mmsky.mp.gov.in using Samagra ID",
+      "Choose training course and establishment",
+      "Complete training; stipend paid monthly"
+    ],
+    "documents": [
+      {
+        "name": "Samagra ID",
+        "required": true
+      },
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      },
+      {
+        "name": "Educational certificates",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 18,
+      "maxAge": 29,
+      "occupations": [
+        "job_seeker"
+      ]
+    },
+    "applyUrl": "https://mmsky.mp.gov.in",
+    "officialUrl": "https://mmsky.mp.gov.in",
+    "sourceUrl": "https://mmsky.mp.gov.in",
+    "status": "active",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L1 - Cross-checked with news/secondary sources (16 Nov 2026); confirm on official source",
+    "verificationNotes": "Revised rules issued 10 Jun 2026 (per secondary source) - re-check eligibility and stipend. Helpline reported: 0755-2525258.",
+    "tags": [
+      "skill",
+      "training",
+      "stipend",
+      "youth",
+      "seekho kamao",
+      "mp"
+    ]
+  },
+  {
+    "schemeCode": "MP016",
+    "slug": "mgnrega-rural-employment-guarantee",
+    "name": "MGNREGA (Rural Employment Guarantee)",
+    "shortDescription": "Legal guarantee of up to 100 days of unskilled wage employment per year per rural household.",
+    "sector": "employment",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Rural Development",
+    "department": "Ministry of Rural Development",
+    "targetBeneficiary": "Rural households (adult members)",
+    "eligibilityText": "Adult members of rural households willing to do unskilled manual work.",
+    "benefits": "Wage employment on local public works.",
+    "incomeLimitText": "None",
+    "applicationMode": "Offline / Online",
+    "applicationSteps": [
+      "Apply for Job Card at Gram Panchayat",
+      "Submit written demand for work",
+      "Work to be allotted within 15 days"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      },
+      {
+        "name": "Passport size photograph",
+        "required": true
+      },
+      {
+        "name": "Job card application",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 18,
+      "residence": "rural"
+    },
+    "applyUrl": "https://nrega.nic.in",
+    "officialUrl": "https://nrega.nic.in",
+    "sourceUrl": "https://nrega.nic.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Wage rate differs by state; verify MP rate.",
+    "tags": [
+      "rural",
+      "job card",
+      "wage",
+      "nrega",
+      "employment"
+    ]
+  },
+  {
+    "schemeCode": "MP017",
+    "slug": "pradhan-mantri-kaushal-vikas-yojana-pmkvy",
+    "name": "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+    "shortDescription": "Short-term skill training with certification.",
+    "sector": "employment",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Skill Development & Entrepreneurship",
+    "department": "Ministry of Skill Development & Entrepreneurship",
+    "targetBeneficiary": "Youth, dropouts and job seekers",
+    "eligibilityText": "Indian youth in the notified age range; course-specific requirements apply.",
+    "benefits": "Free skill training and recognised certificate.",
+    "incomeLimitText": "None",
+    "applicationMode": "Online / Training centre",
+    "applicationSteps": [
+      "Find a training centre on skillindiadigital.gov.in",
+      "Enrol in a course",
+      "Complete assessment and certification"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      },
+      {
+        "name": "Passport size photograph",
+        "required": true
+      },
+      {
+        "name": "Educational certificates (if required)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 15,
+      "maxAge": 45
+    },
+    "applyUrl": "https://www.skillindiadigital.gov.in",
+    "officialUrl": "https://www.skillindiadigital.gov.in",
+    "sourceUrl": "https://www.skillindiadigital.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify current PMKVY version (4.0) status and age limits.",
+    "tags": [
+      "skill",
+      "training",
+      "youth",
+      "pmkvy"
+    ]
+  },
+  {
+    "schemeCode": "MP018",
+    "slug": "national-apprenticeship-promotion-scheme-apprenticeship-india",
+    "name": "National Apprenticeship Promotion Scheme (Apprenticeship India)",
+    "shortDescription": "Apprenticeship training in establishments with stipend support.",
+    "sector": "employment",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Skill Development & Entrepreneurship",
+    "department": "Ministry of Skill Development & Entrepreneurship",
+    "targetBeneficiary": "Youth seeking apprenticeship training",
+    "eligibilityText": "Persons aged 14+ meeting the trade/course requirement.",
+    "benefits": "Stipend during apprenticeship with part reimbursement to employer as per scheme.",
+    "incomeLimitText": "None",
+    "applicationMode": "Online",
+    "applicationSteps": [
+      "Register on apprenticeshipindia.gov.in",
+      "Search and apply to establishments",
+      "Sign apprenticeship contract"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Educational certificates",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      },
+      {
+        "name": "Passport size photograph",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 14,
+      "occupations": [
+        "job_seeker"
+      ]
+    },
+    "applyUrl": "https://www.apprenticeshipindia.gov.in",
+    "officialUrl": "https://www.apprenticeshipindia.gov.in",
+    "sourceUrl": "https://www.apprenticeshipindia.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify stipend sharing rules.",
+    "tags": [
+      "apprenticeship",
+      "training",
+      "stipend",
+      "job"
+    ]
+  },
+  {
+    "schemeCode": "MP019",
+    "slug": "national-career-service-ncs-job-registration",
+    "name": "National Career Service (NCS) Job Registration",
+    "shortDescription": "Free registration and job-matching portal for job seekers, including career counselling.",
+    "sector": "employment",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Labour & Employment",
+    "department": "Ministry of Labour & Employment",
+    "targetBeneficiary": "Job seekers",
+    "eligibilityText": "Any job seeker; registration with Aadhaar / mobile.",
+    "benefits": "Job search, matching and career services.",
+    "incomeLimitText": "None",
+    "applicationMode": "Online",
+    "applicationSteps": [
+      "Register at ncs.gov.in",
+      "Complete profile and upload qualifications",
+      "Apply to listed jobs"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Mobile number",
+        "required": true
+      },
+      {
+        "name": "Educational certificates",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "job_seeker"
+      ]
+    },
+    "applyUrl": "https://www.ncs.gov.in",
+    "officialUrl": "https://www.ncs.gov.in",
+    "sourceUrl": "https://www.ncs.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Also check MP state employment exchange portal for state-level registration.",
+    "tags": [
+      "job",
+      "employment exchange",
+      "ncs",
+      "job seeker"
+    ]
+  },
+  {
+    "schemeCode": "MP020",
+    "slug": "pm-mudra-yojana",
+    "name": "PM Mudra Yojana",
+    "shortDescription": "Collateral-free loans up to Rs 10 lakh for small non-farm businesses.",
+    "sector": "finance",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Finance",
+    "department": "Ministry of Finance",
+    "targetBeneficiary": "Micro and small business owners / aspirants",
+    "eligibilityText": "Non-farm small business owners and aspiring entrepreneurs.",
+    "benefits": "Shishu (up to Rs 50k), Kishor (up to Rs 5 lakh), Tarun (up to Rs 10 lakh) loans.",
+    "incomeLimitText": "None",
+    "applicationMode": "Bank / Online",
+    "applicationSteps": [
+      "Approach bank, NBFC or MFI",
+      "Submit application and business details",
+      "Loan sanction and disbursal"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "PAN card",
+        "required": true
+      },
+      {
+        "name": "Business plan / proof of business",
+        "required": true
+      },
+      {
+        "name": "Address proof",
+        "required": true
+      },
+      {
+        "name": "Passport size photograph",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 18,
+      "occupations": [
+        "entrepreneur",
+        "self_employed",
+        "artisan",
+        "street_vendor"
+      ]
+    },
+    "applyUrl": "https://www.mudra.org.in",
+    "officialUrl": "https://www.mudra.org.in",
+    "sourceUrl": "https://www.mudra.org.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify category limits.",
+    "tags": [
+      "loan",
+      "business",
+      "startup",
+      "mudra",
+      "msme"
+    ]
+  },
+  {
+    "schemeCode": "MP021",
+    "slug": "stand-up-india",
+    "name": "Stand-Up India",
+    "shortDescription": "Bank loans of Rs 10 lakh to Rs 1 crore for new enterprises by women or SC/ST entrepreneurs.",
+    "sector": "finance",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Finance / SIDBI",
+    "department": "Ministry of Finance / SIDBI",
+    "targetBeneficiary": "Women and SC/ST entrepreneurs",
+    "eligibilityText": "Women or SC/ST entrepreneurs aged 18+ setting up a first greenfield enterprise.",
+    "benefits": "Composite loan for manufacturing, services, trading and allied activities.",
+    "incomeLimitText": "None",
+    "applicationMode": "Online / Bank",
+    "applicationSteps": [
+      "Register on standupmitra.in",
+      "Apply via portal or bank branch",
+      "Bank appraisal and sanction"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "PAN card",
+        "required": true
+      },
+      {
+        "name": "Caste certificate (if SC/ST)",
+        "required": false
+      },
+      {
+        "name": "Project report",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 18,
+      "occupations": [
+        "entrepreneur",
+        "self_employed"
+      ],
+      "anyOf": [
+        {
+          "genders": [
+            "female"
+          ]
+        },
+        {
+          "categories": [
+            "SC",
+            "ST"
+          ]
+        }
+      ],
+      "anyOfLabel": "woman, or belongs to SC/ST"
+    },
+    "applyUrl": "https://www.standupmitra.in",
+    "officialUrl": "https://www.standupmitra.in",
+    "sourceUrl": "https://www.standupmitra.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "IMPORTANT: scheme tenure was extended only up to a notified year - confirm whether it is still active.",
+    "tags": [
+      "women entrepreneur",
+      "sc st",
+      "loan",
+      "startup"
+    ]
+  },
+  {
+    "schemeCode": "MP022",
+    "slug": "pmegp-prime-minister-s-employment-generation-programme",
+    "name": "PMEGP (Prime Minister's Employment Generation Programme)",
+    "shortDescription": "Credit-linked subsidy for setting up new micro-enterprises.",
+    "sector": "finance",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of MSME (KVIC)",
+    "department": "Ministry of MSME (KVIC)",
+    "targetBeneficiary": "Aspiring self-employed entrepreneurs",
+    "eligibilityText": "Individuals aged 18+ (8th pass for larger projects), self-help groups, etc., setting up new units.",
+    "benefits": "Margin-money subsidy of roughly 15-35% of project cost depending on category and area.",
+    "incomeLimitText": "None",
+    "applicationMode": "Online",
+    "applicationSteps": [
+      "Apply at kviconline.gov.in PMEGP e-portal",
+      "Interview by task force",
+      "Bank loan sanction and subsidy release"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Project report",
+        "required": true
+      },
+      {
+        "name": "Educational / EDP training certificate",
+        "required": true
+      },
+      {
+        "name": "Caste / category certificate",
+        "required": false
+      },
+      {
+        "name": "Bank details",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 18,
+      "occupations": [
+        "entrepreneur",
+        "self_employed",
+        "job_seeker"
+      ]
+    },
+    "applyUrl": "https://www.kviconline.gov.in",
+    "officialUrl": "https://www.kviconline.gov.in",
+    "sourceUrl": "https://www.kviconline.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify project cost ceilings and subsidy rates.",
+    "tags": [
+      "loan",
+      "subsidy",
+      "pmegp",
+      "self employment",
+      "msme"
+    ]
+  },
+  {
+    "schemeCode": "MP023",
+    "slug": "mukhyamantri-yuva-udyami-yojana",
+    "name": "Mukhyamantri Yuva Udyami Yojana",
+    "shortDescription": "State scheme to help young people start enterprises with loan and subsidy support.",
+    "sector": "finance",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Micro, Small & Medium Enterprises Dept, Madhya Pradesh",
+    "department": "Micro, Small & Medium Enterprises Dept, Madhya Pradesh",
+    "targetBeneficiary": "Young entrepreneurs of MP",
+    "eligibilityText": "Young MP residents within the notified age range with a viable business plan.",
+    "benefits": "Loan facilitation with interest / margin support (details to be verified).",
+    "incomeLimitText": "As per official guidelines",
+    "applicationMode": "Online",
+    "applicationSteps": [
+      "Check official MP MSME / industries portal",
+      "Register and submit project proposal",
+      "Bank sanction"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Samagra ID",
+        "required": true
+      },
+      {
+        "name": "Project report",
+        "required": true
+      },
+      {
+        "name": "Educational certificates",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 18,
+      "occupations": [
+        "entrepreneur",
+        "job_seeker"
+      ]
+    },
+    "applyUrl": "https://www.mp.gov.in",
+    "officialUrl": "https://www.mp.gov.in",
+    "sourceUrl": "https://www.mp.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Official scheme page, age limit, loan amount and subsidy all UNVERIFIED.",
+    "tags": [
+      "loan",
+      "youth",
+      "startup",
+      "mp",
+      "entrepreneur"
+    ]
+  },
+  {
+    "schemeCode": "MP024",
+    "slug": "pm-svanidhi",
+    "name": "PM SVANidhi",
+    "shortDescription": "Working-capital loans for street vendors with incentives for digital payments.",
+    "sector": "finance",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Housing & Urban Affairs",
+    "department": "Ministry of Housing & Urban Affairs",
+    "targetBeneficiary": "Urban street vendors",
+    "eligibilityText": "Urban street vendors with vending certificate / ID or other recognised proof.",
+    "benefits": "Collateral-free working-capital loan, repeatable on timely repayment.",
+    "incomeLimitText": "None",
+    "applicationMode": "Online / Bank",
+    "applicationSteps": [
+      "Apply on pmsvanidhi.mohua.gov.in or via CSC",
+      "Lender verifies and sanctions loan"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Certificate of vending / ID card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "occupations": [
+        "street_vendor"
+      ],
+      "residence": "urban"
+    },
+    "applyUrl": "https://pmsvanidhi.mohua.gov.in",
+    "officialUrl": "https://pmsvanidhi.mohua.gov.in",
+    "sourceUrl": "https://pmsvanidhi.mohua.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify current loan tranches and scheme tenure.",
+    "tags": [
+      "street vendor",
+      "loan",
+      "hawker"
+    ]
+  },
+  {
+    "schemeCode": "MP025",
+    "slug": "pradhan-mantri-jan-dhan-yojana-pmjdy",
+    "name": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+    "shortDescription": "Basic bank account with RuPay card and accident insurance cover.",
+    "sector": "finance",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Finance",
+    "department": "Ministry of Finance",
+    "targetBeneficiary": "Unbanked individuals",
+    "eligibilityText": "Any individual without a bank account.",
+    "benefits": "Zero-balance account, RuPay debit card with accident cover, and overdraft facility as per rules.",
+    "incomeLimitText": "None",
+    "applicationMode": "Bank branch / Bank Mitra",
+    "applicationSteps": [
+      "Visit any bank branch or Bank Mitra",
+      "Fill account opening form with KYC",
+      "Receive passbook and RuPay card"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card or other officially valid document",
+        "required": true
+      },
+      {
+        "name": "Passport size photograph",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 10
+    },
+    "applyUrl": "https://pmjdy.gov.in",
+    "officialUrl": "https://pmjdy.gov.in",
+    "sourceUrl": "https://pmjdy.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify insurance and overdraft limits.",
+    "tags": [
+      "bank account",
+      "jan dhan",
+      "zero balance",
+      "banking"
+    ]
+  },
+  {
+    "schemeCode": "MP026",
+    "slug": "mukhyamantri-ladli-behna-yojana",
+    "name": "Mukhyamantri Ladli Behna Yojana",
+    "shortDescription": "Monthly cash assistance to eligible women of MP, paid directly to their bank account.",
+    "sector": "women_child",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Women & Child Development Dept, Madhya Pradesh",
+    "department": "Women & Child Development Dept, Madhya Pradesh",
+    "targetBeneficiary": "Women of Madhya Pradesh aged 21-60",
+    "eligibilityText": "Women of MP aged 21-60 (married incl. widowed/divorced/abandoned) with family income within limit; usual exclusions for tax-payers, government employees and similar (verify).",
+    "benefits": "Rs 1,500 per month by DBT (raised from Rs 1,250).",
+    "incomeLimitText": "Rs 2.5 lakh per annum (reported)",
+    "applicationMode": "Online (existing beneficiaries); new registration status unverified",
+    "applicationSteps": [
+      "Check status / eKYC on cmladlibahna.mp.gov.in",
+      "Keep bank account DBT-enabled and eKYC complete"
+    ],
+    "documents": [
+      {
+        "name": "Samagra ID",
+        "required": true
+      },
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked) (Aadhaar-seeded / DBT-enabled)",
+        "required": true
+      },
+      {
+        "name": "Income certificate / proof (if asked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 21,
+      "maxAge": 60,
+      "genders": [
+        "female"
+      ],
+      "maxAnnualIncome": 250000
+    },
+    "applyUrl": "https://cmladlibahna.mp.gov.in",
+    "officialUrl": "https://cmladlibahna.mp.gov.in",
+    "sourceUrl": "https://cmladlibahna.mp.gov.in",
+    "status": "active",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L1 - Cross-checked with news/secondary sources (16 Nov 2026); confirm on official source",
+    "verificationNotes": "Rs 1,500/month and 41st instalment (14 Oct 2026) confirmed by news. Some sources say new registrations closed since Aug 2023 - CONFIRM before telling users they can apply. Stated Rs 3,000 goal is not yet implemented.",
+    "tags": [
+      "women",
+      "ladli behna",
+      "monthly assistance",
+      "mp"
+    ]
+  },
+  {
+    "schemeCode": "MP027",
+    "slug": "ladli-laxmi-yojana-2-0",
+    "name": "Ladli Laxmi Yojana 2.0",
+    "shortDescription": "Staged financial assistance for girls linked to birth, schooling milestones and age of maturity.",
+    "sector": "women_child",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Women & Child Development Dept, Madhya Pradesh",
+    "department": "Women & Child Development Dept, Madhya Pradesh",
+    "targetBeneficiary": "Girl children born in Madhya Pradesh families",
+    "eligibilityText": "Girl children of MP families as per scheme rules (birth-date and registration rules apply).",
+    "benefits": "Staged payments at schooling milestones and a final payment at maturity (amounts to be verified).",
+    "incomeLimitText": "As per official guidelines",
+    "applicationMode": "Online / Anganwadi",
+    "applicationSteps": [
+      "Register the girl child via Anganwadi / WCD office",
+      "Link education milestones",
+      "Receive staged payments"
+    ],
+    "documents": [
+      {
+        "name": "Birth certificate",
+        "required": true
+      },
+      {
+        "name": "Parents' Aadhaar / Samagra ID",
+        "required": true
+      },
+      {
+        "name": "Bank / post office account",
+        "required": true
+      },
+      {
+        "name": "School enrolment proofs (later stages)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "requiresGirlChild": true
+    },
+    "applyUrl": "https://www.mp.gov.in",
+    "officialUrl": "https://www.mp.gov.in",
+    "sourceUrl": "https://www.mp.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Official page and exact payment schedule UNVERIFIED.",
+    "tags": [
+      "girl child",
+      "ladli laxmi",
+      "mp",
+      "education support"
+    ]
+  },
+  {
+    "schemeCode": "MP028",
+    "slug": "pradhan-mantri-matru-vandana-yojana-pmmvy",
+    "name": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+    "shortDescription": "Cash incentive for pregnant and lactating mothers for the first living child (and second child if girl, as notified).",
+    "sector": "women_child",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Women & Child Development",
+    "department": "Ministry of Women & Child Development",
+    "targetBeneficiary": "Pregnant and lactating women",
+    "eligibilityText": "Eligible pregnant / lactating women aged 19+ as per scheme rules.",
+    "benefits": "Cash benefit in instalments (about Rs 5,000 first child; Rs 6,000 second girl child - verify).",
+    "incomeLimitText": "None",
+    "applicationMode": "Anganwadi / Health centre / Online",
+    "applicationSteps": [
+      "Register at Anganwadi centre or health facility",
+      "Submit forms in prescribed stages",
+      "Receive DBT"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "MCP card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      },
+      {
+        "name": "Pregnancy registration proof",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 19,
+      "genders": [
+        "female"
+      ]
+    },
+    "applyUrl": "https://wcd.nic.in",
+    "officialUrl": "https://wcd.nic.in",
+    "sourceUrl": "https://wcd.nic.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify current amounts and conditions.",
+    "tags": [
+      "pregnant women",
+      "maternity",
+      "matru vandana",
+      "pmmvy"
+    ]
+  },
+  {
+    "schemeCode": "MP029",
+    "slug": "pradhan-mantri-ujjwala-yojana-pmuy",
+    "name": "Pradhan Mantri Ujjwala Yojana (PMUY)",
+    "shortDescription": "Free LPG connection for women from eligible poor households.",
+    "sector": "women_child",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Petroleum & Natural Gas",
+    "department": "Ministry of Petroleum & Natural Gas",
+    "targetBeneficiary": "Women from poor households",
+    "eligibilityText": "Adult women from eligible households without an existing LPG connection.",
+    "benefits": "Deposit-free LPG connection; targeted subsidy on refills as notified.",
+    "incomeLimitText": "As per SECC / household criteria",
+    "applicationMode": "Online / LPG distributor",
+    "applicationSteps": [
+      "Visit LPG distributor or pmuy.gov.in",
+      "Submit KYC form",
+      "Connection released"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Ration card / BPL proof",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      },
+      {
+        "name": "Passport size photograph",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 18,
+      "genders": [
+        "female"
+      ],
+      "requiresBPL": true
+    },
+    "applyUrl": "https://www.pmuy.gov.in",
+    "officialUrl": "https://www.pmuy.gov.in",
+    "sourceUrl": "https://www.pmuy.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify eligibility categories and current subsidy.",
+    "tags": [
+      "lpg",
+      "women",
+      "gas",
+      "ujjwala"
+    ]
+  },
+  {
+    "schemeCode": "MP030",
+    "slug": "mukhyamantri-kanya-vivah-nikah-yojana",
+    "name": "Mukhyamantri Kanya Vivah / Nikah Yojana",
+    "shortDescription": "Financial assistance for marriage of girls from eligible families, often at community mass-marriage events.",
+    "sector": "women_child",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Social Justice & Disabilities Welfare Dept / Labour Dept, Madhya Pradesh",
+    "department": "Social Justice & Disabilities Welfare Dept / Labour Dept, Madhya Pradesh",
+    "targetBeneficiary": "Girls from eligible poor / unorganised-worker families in MP",
+    "eligibilityText": "Girls (and families) of MP meeting the age, income / category conditions of the scheme.",
+    "benefits": "Marriage assistance of about Rs 55,000 in total (gift + event expenses) - verify.",
+    "incomeLimitText": "As per official guidelines",
+    "applicationMode": "Online / Local body",
+    "applicationSteps": [
+      "Apply through the department / local body before the marriage event",
+      "Verification",
+      "Assistance at the marriage event"
+    ],
+    "documents": [
+      {
+        "name": "Samagra ID",
+        "required": true
+      },
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Age proof of bride and groom",
+        "required": true
+      },
+      {
+        "name": "Income / category certificate",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 18,
+      "genders": [
+        "female"
+      ]
+    },
+    "applyUrl": "https://www.mp.gov.in",
+    "officialUrl": "https://www.mp.gov.in",
+    "sourceUrl": "https://www.mp.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Exact department, amount and eligibility UNVERIFIED.",
+    "tags": [
+      "marriage",
+      "kanya vivah",
+      "women",
+      "mp"
+    ]
+  },
+  {
+    "schemeCode": "MP031",
+    "slug": "mp-social-security-pension-old-age-incl-ignoaps",
+    "name": "MP Social Security Pension - Old Age (incl. IGNOAPS)",
+    "shortDescription": "Monthly old-age pension for elderly persons from eligible poor households.",
+    "sector": "pension",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Social Justice & Disabilities Welfare Dept, Madhya Pradesh",
+    "department": "Social Justice & Disabilities Welfare Dept, Madhya Pradesh",
+    "targetBeneficiary": "Senior citizens from poor families in MP",
+    "eligibilityText": "Elderly persons aged 60+ from BPL / eligible households of MP.",
+    "benefits": "Monthly pension (centre contribution Rs 200 for 60-79, Rs 500 for 80+; MP total reported ~Rs 600 - verify).",
+    "incomeLimitText": "BPL / as per guidelines",
+    "applicationMode": "Online (Samagra / Social Security portal) / Local body",
+    "applicationSteps": [
+      "Apply through ward / Gram Panchayat or the social security portal",
+      "Verification",
+      "Sanction and monthly DBT"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Samagra ID",
+        "required": true
+      },
+      {
+        "name": "Age proof",
+        "required": true
+      },
+      {
+        "name": "BPL / ration card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 60,
+      "requiresBPL": true
+    },
+    "applyUrl": "https://socialsecurity.mp.gov.in",
+    "officialUrl": "https://socialsecurity.mp.gov.in",
+    "sourceUrl": "https://socialsecurity.mp.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify current MP pension amount and eligibility categories.",
+    "tags": [
+      "old age pension",
+      "senior citizen",
+      "social security",
+      "bpl",
+      "mp"
+    ]
+  },
+  {
+    "schemeCode": "MP032",
+    "slug": "mp-social-security-pension-widow",
+    "name": "MP Social Security Pension - Widow",
+    "shortDescription": "Monthly pension for widows from eligible households.",
+    "sector": "pension",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Social Justice & Disabilities Welfare Dept, Madhya Pradesh",
+    "department": "Social Justice & Disabilities Welfare Dept, Madhya Pradesh",
+    "targetBeneficiary": "Widows from poor families in MP",
+    "eligibilityText": "Widows of MP from BPL / eligible households within the notified age range.",
+    "benefits": "Monthly pension (amount to be verified).",
+    "incomeLimitText": "BPL / as per guidelines",
+    "applicationMode": "Online / Local body",
+    "applicationSteps": [
+      "Apply through ward / Gram Panchayat or portal",
+      "Verification",
+      "Sanction and DBT"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Samagra ID",
+        "required": true
+      },
+      {
+        "name": "Husband's death certificate",
+        "required": true
+      },
+      {
+        "name": "BPL / ration card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "genders": [
+        "female"
+      ],
+      "requiresBPL": true
+    },
+    "applyUrl": "https://socialsecurity.mp.gov.in",
+    "officialUrl": "https://socialsecurity.mp.gov.in",
+    "sourceUrl": "https://socialsecurity.mp.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Age limits and amount UNVERIFIED.",
+    "tags": [
+      "widow pension",
+      "social security",
+      "women",
+      "mp"
+    ]
+  },
+  {
+    "schemeCode": "MP033",
+    "slug": "mp-social-security-pension-disability",
+    "name": "MP Social Security Pension - Disability",
+    "shortDescription": "Monthly pension for persons with severe disability from eligible households.",
+    "sector": "pension",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Social Justice & Disabilities Welfare Dept, Madhya Pradesh",
+    "department": "Social Justice & Disabilities Welfare Dept, Madhya Pradesh",
+    "targetBeneficiary": "Persons with disabilities from poor families in MP",
+    "eligibilityText": "Persons with disability (minimum disability percentage as notified) from BPL / eligible households.",
+    "benefits": "Monthly pension (amount to be verified).",
+    "incomeLimitText": "BPL / as per guidelines",
+    "applicationMode": "Online / Local body",
+    "applicationSteps": [
+      "Apply through local body or portal",
+      "Verification of disability certificate",
+      "Sanction and DBT"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Samagra ID",
+        "required": true
+      },
+      {
+        "name": "Disability certificate / UDID",
+        "required": true
+      },
+      {
+        "name": "BPL / ration card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 18,
+      "requiresBPL": true,
+      "requiresDisability": true
+    },
+    "applyUrl": "https://socialsecurity.mp.gov.in",
+    "officialUrl": "https://socialsecurity.mp.gov.in",
+    "sourceUrl": "https://socialsecurity.mp.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Minimum disability % and amount UNVERIFIED.",
+    "tags": [
+      "disability pension",
+      "divyang",
+      "social security",
+      "mp"
+    ]
+  },
+  {
+    "schemeCode": "MP034",
+    "slug": "atal-pension-yojana-apy",
+    "name": "Atal Pension Yojana (APY)",
+    "shortDescription": "Guaranteed minimum monthly pension after age 60 based on contributions.",
+    "sector": "pension",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Finance / PFRDA",
+    "department": "Ministry of Finance / PFRDA",
+    "targetBeneficiary": "Unorganised-sector workers aged 18-40",
+    "eligibilityText": "Indian citizens aged 18-40 with a savings account; not an income-tax payer (rule as notified).",
+    "benefits": "Fixed monthly pension of Rs 1,000-5,000 from age 60 depending on contribution.",
+    "incomeLimitText": "Not an income-tax payer (verify)",
+    "applicationMode": "Bank / Post office",
+    "applicationSteps": [
+      "Visit bank or post office",
+      "Choose pension amount",
+      "Give auto-debit consent"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      },
+      {
+        "name": "Mobile number",
+        "required": false
+      }
+    ],
+    "criteria": {
+      "minAge": 18,
+      "maxAge": 40
+    },
+    "applyUrl": "https://www.npscra.nsdl.co.in",
+    "officialUrl": "https://www.npscra.nsdl.co.in",
+    "sourceUrl": "https://www.npscra.nsdl.co.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify taxpayer-exclusion rule.",
+    "tags": [
+      "pension",
+      "retirement",
+      "unorganised sector",
+      "apy"
+    ]
+  },
+  {
+    "schemeCode": "MP035",
+    "slug": "pm-shram-yogi-maan-dhan-pm-sym",
+    "name": "PM Shram Yogi Maan-dhan (PM-SYM)",
+    "shortDescription": "Pension scheme for unorganised workers with monthly income up to Rs 15,000.",
+    "sector": "pension",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Labour & Employment",
+    "department": "Ministry of Labour & Employment",
+    "targetBeneficiary": "Unorganised workers aged 18-40",
+    "eligibilityText": "Unorganised workers aged 18-40 with monthly income up to Rs 15,000 and not covered by EPFO/ESIC/NPS.",
+    "benefits": "Assured monthly pension of Rs 3,000 after age 60 (with matching government contribution).",
+    "incomeLimitText": "Rs 15,000 per month (Rs 1.8 lakh per year)",
+    "applicationMode": "CSC / Online",
+    "applicationSteps": [
+      "Visit nearest CSC",
+      "Enrol with Aadhaar and bank details",
+      "Pay first contribution"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Bank account passbook (Aadhaar-linked)",
+        "required": true
+      },
+      {
+        "name": "Mobile number",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 18,
+      "maxAge": 40,
+      "occupations": [
+        "laborer",
+        "self_employed",
+        "street_vendor",
+        "artisan"
+      ],
+      "maxAnnualIncome": 180000
+    },
+    "applyUrl": "https://maandhan.in",
+    "officialUrl": "https://maandhan.in",
+    "sourceUrl": "https://maandhan.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify current enrolment status.",
+    "tags": [
+      "pension",
+      "unorganised worker",
+      "labour",
+      "pm sym"
+    ]
+  },
+  {
+    "schemeCode": "MP036",
+    "slug": "mp-bhulekh-record-of-rights-khasra-b-1-khatauni",
+    "name": "MP Bhulekh - Record of Rights (Khasra / B-1 / Khatauni)",
+    "shortDescription": "View and download digital land records (Khasra, B-1 / Khatauni) of Madhya Pradesh.",
+    "sector": "land",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Revenue Dept, Madhya Pradesh",
+    "department": "Revenue Dept, Madhya Pradesh",
+    "targetBeneficiary": "Landowners and farmers",
+    "eligibilityText": "Any person searching land records; search by district, tehsil, village, survey number or owner name.",
+    "benefits": "Online access to land ownership records and copies.",
+    "incomeLimitText": "None",
+    "applicationMode": "Online",
+    "applicationSteps": [
+      "Open mpbhulekh.gov.in",
+      "Select district, tehsil and village",
+      "Search by survey number or owner name",
+      "View / download record"
+    ],
+    "documents": [
+      {
+        "name": "Khasra / survey number",
+        "required": true
+      },
+      {
+        "name": "District, tehsil and village details",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "requiresLand": true
+    },
+    "applyUrl": "https://mpbhulekh.gov.in",
+    "officialUrl": "https://mpbhulekh.gov.in",
+    "sourceUrl": "https://mpbhulekh.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify fee and certified-copy rules.",
+    "tags": [
+      "land record",
+      "bhulekh",
+      "khasra",
+      "b1",
+      "khatauni",
+      "property"
+    ]
+  },
+  {
+    "schemeCode": "MP037",
+    "slug": "mp-bhu-naksha-digital-village-land-maps",
+    "name": "MP Bhu-Naksha (Digital Village / Land Maps)",
+    "shortDescription": "View digitised village maps and plot boundaries.",
+    "sector": "land",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Revenue Dept, Madhya Pradesh",
+    "department": "Revenue Dept, Madhya Pradesh",
+    "targetBeneficiary": "Landowners and farmers",
+    "eligibilityText": "Any person; search by district, tehsil, village and survey number.",
+    "benefits": "Online view and download of maps.",
+    "incomeLimitText": "None",
+    "applicationMode": "Online",
+    "applicationSteps": [
+      "Open the Bhu-Naksha section of the MP land records portal",
+      "Select location",
+      "View or download map"
+    ],
+    "documents": [
+      {
+        "name": "Khasra / survey number",
+        "required": true
+      },
+      {
+        "name": "Village details",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "requiresLand": true
+    },
+    "applyUrl": "https://mpbhulekh.gov.in",
+    "officialUrl": "https://mpbhulekh.gov.in",
+    "sourceUrl": "https://mpbhulekh.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Confirm exact Bhu-Naksha URL/section and fees.",
+    "tags": [
+      "bhu naksha",
+      "land map",
+      "property",
+      "revenue"
+    ]
+  },
+  {
+    "schemeCode": "MP038",
+    "slug": "online-mutation-namantaran-and-partition-batwara",
+    "name": "Online Mutation (Namantaran) and Partition (Batwara)",
+    "shortDescription": "Online application for mutation of land after sale, inheritance or partition.",
+    "sector": "land",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Revenue Dept, Madhya Pradesh",
+    "department": "Revenue Dept, Madhya Pradesh",
+    "targetBeneficiary": "Landowners",
+    "eligibilityText": "Landowners / buyers / heirs with a registered deed or legal basis for mutation or partition.",
+    "benefits": "Update of land records in the new owner's name.",
+    "incomeLimitText": "None",
+    "applicationMode": "Online",
+    "applicationSteps": [
+      "Apply online on the MP land / revenue portal",
+      "Notice and objections period",
+      "Order passed and record updated"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Registered sale deed / succession proof",
+        "required": true
+      },
+      {
+        "name": "Khasra / B-1 copy",
+        "required": true
+      },
+      {
+        "name": "Applicant ID proof",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "requiresLand": true
+    },
+    "applyUrl": "https://mpbhulekh.gov.in",
+    "officialUrl": "https://mpbhulekh.gov.in",
+    "sourceUrl": "https://mpbhulekh.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Confirm correct portal for application and tracking (Bhulekh / RCMS / e-District).",
+    "tags": [
+      "mutation",
+      "namantaran",
+      "batwara",
+      "partition",
+      "land"
+    ]
+  },
+  {
+    "schemeCode": "MP039",
+    "slug": "property-registration-and-e-stamping-sampada-igrs-mp",
+    "name": "Property Registration and e-Stamping (Sampada / IGRS MP)",
+    "shortDescription": "Online services for registration of documents, stamp duty payment and guideline-value lookup.",
+    "sector": "land",
+    "level": "state",
+    "states": [
+      "Madhya Pradesh"
+    ],
+    "ministry": "Registration Dept (IGRS), Madhya Pradesh",
+    "department": "Registration Dept (IGRS), Madhya Pradesh",
+    "targetBeneficiary": "Buyers, sellers, property owners",
+    "eligibilityText": "Any party to a property transaction in MP.",
+    "benefits": "Online appointment, e-stamp payment and registration support.",
+    "incomeLimitText": "None",
+    "applicationMode": "Online + Sub-registrar office",
+    "applicationSteps": [
+      "Open the MP registration portal",
+      "Fill deed details and pay stamp duty",
+      "Book slot",
+      "Visit sub-registrar for registration"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "PAN card",
+        "required": true
+      },
+      {
+        "name": "Property documents",
+        "required": true
+      },
+      {
+        "name": "Identity proof of parties and witnesses",
+        "required": true
+      }
+    ],
+    "criteria": {},
+    "applyUrl": "https://www.mpigr.gov.in",
+    "officialUrl": "https://www.mpigr.gov.in",
+    "sourceUrl": "https://www.mpigr.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Official URL and portal name (Sampada) must be verified.",
+    "tags": [
+      "registration",
+      "stamp duty",
+      "sampada",
+      "property"
+    ]
+  },
+  {
+    "schemeCode": "MP040",
+    "slug": "svamitva-scheme-rural-property-cards",
+    "name": "SVAMITVA Scheme (Rural Property Cards)",
+    "shortDescription": "Mapping of rural inhabited land with drones and issue of property cards to owners.",
+    "sector": "land",
+    "level": "central",
+    "states": [],
+    "ministry": "Ministry of Panchayati Raj",
+    "department": "Ministry of Panchayati Raj",
+    "targetBeneficiary": "Rural property (abadi) owners",
+    "eligibilityText": "Owners of inhabited rural (abadi) properties in surveyed villages.",
+    "benefits": "Legal ownership property card usable for bank loans and dispute reduction.",
+    "incomeLimitText": "None",
+    "applicationMode": "Offline / Village survey",
+    "applicationSteps": [
+      "Village is surveyed by drone",
+      "Owners verify details at Gram Panchayat",
+      "Property card distributed"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "Proof of possession of house / plot",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "residence": "rural"
+    },
+    "applyUrl": "https://svamitva.nic.in",
+    "officialUrl": "https://svamitva.nic.in",
+    "sourceUrl": "https://svamitva.nic.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Confirm status of MP villages covered.",
+    "tags": [
+      "svamitva",
+      "property card",
+      "rural",
+      "abadi"
+    ]
+  },
+  {
+    "schemeCode": "MP041",
+    "slug": "sukanya-samriddhi-yojana-ssy",
+    "name": "Sukanya Samriddhi Yojana (SSY)",
+    "shortDescription": "Small savings account for a girl child with a government-notified interest rate and tax benefits.",
+    "sector": "postal",
+    "level": "central",
+    "states": [],
+    "ministry": "Department of Posts / Ministry of Finance",
+    "department": "Department of Posts / Ministry of Finance",
+    "targetBeneficiary": "Parents / guardians of a girl child below 10",
+    "eligibilityText": "Girl child below 10 years; one account per girl (max two girls per family, as per rules).",
+    "benefits": "Deposits from Rs 250 to Rs 1.5 lakh per year; rate notified quarterly by Ministry of Finance.",
+    "incomeLimitText": "None",
+    "applicationMode": "Post office / Authorised bank",
+    "applicationSteps": [
+      "Visit post office or authorised bank",
+      "Fill account opening form",
+      "Make initial deposit"
+    ],
+    "documents": [
+      {
+        "name": "Birth certificate of girl child",
+        "required": true
+      },
+      {
+        "name": "Parent / guardian ID and address proof",
+        "required": true
+      },
+      {
+        "name": "Passport size photograph",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "requiresGirlChild": true
+    },
+    "applyUrl": "https://www.indiapost.gov.in",
+    "officialUrl": "https://www.indiapost.gov.in",
+    "sourceUrl": "https://www.indiapost.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Interest rate changes quarterly - do not hardcode.",
+    "tags": [
+      "girl child",
+      "savings",
+      "post office",
+      "ssy"
+    ]
+  },
+  {
+    "schemeCode": "MP042",
+    "slug": "post-office-monthly-income-scheme-pomis",
+    "name": "Post Office Monthly Income Scheme (POMIS)",
+    "shortDescription": "Lump-sum deposit giving fixed monthly interest income.",
+    "sector": "postal",
+    "level": "central",
+    "states": [],
+    "ministry": "Department of Posts / Ministry of Finance",
+    "department": "Department of Posts / Ministry of Finance",
+    "targetBeneficiary": "Resident adults seeking monthly income",
+    "eligibilityText": "Resident Indian adults; single or joint account; 5-year term.",
+    "benefits": "Max deposit Rs 9 lakh (single) / Rs 15 lakh (joint); rate notified quarterly.",
+    "incomeLimitText": "None",
+    "applicationMode": "Post office",
+    "applicationSteps": [
+      "Visit post office",
+      "Fill application and deposit amount"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "PAN card",
+        "required": true
+      },
+      {
+        "name": "Passport size photograph",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 18
+    },
+    "applyUrl": "https://www.indiapost.gov.in",
+    "officialUrl": "https://www.indiapost.gov.in",
+    "sourceUrl": "https://www.indiapost.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify limits and current rate.",
+    "tags": [
+      "post office",
+      "monthly income",
+      "savings",
+      "pomis"
+    ]
+  },
+  {
+    "schemeCode": "MP043",
+    "slug": "senior-citizens-savings-scheme-scss",
+    "name": "Senior Citizens Savings Scheme (SCSS)",
+    "shortDescription": "Safe regular-income savings scheme for senior citizens via post office or bank.",
+    "sector": "postal",
+    "level": "central",
+    "states": [],
+    "ministry": "Department of Posts / Ministry of Finance",
+    "department": "Department of Posts / Ministry of Finance",
+    "targetBeneficiary": "Senior citizens aged 60+",
+    "eligibilityText": "Age 60+ (early retirees in notified categories can join earlier).",
+    "benefits": "Quarterly interest payout; deposit limit up to Rs 30 lakh; 5-year term; rate notified quarterly.",
+    "incomeLimitText": "None",
+    "applicationMode": "Post office / Bank",
+    "applicationSteps": [
+      "Visit post office or bank",
+      "Submit form with KYC",
+      "Deposit within limit"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "PAN card",
+        "required": true
+      },
+      {
+        "name": "Age proof",
+        "required": true
+      },
+      {
+        "name": "Passport size photograph",
+        "required": true
+      }
+    ],
+    "criteria": {
+      "minAge": 60
+    },
+    "applyUrl": "https://www.indiapost.gov.in",
+    "officialUrl": "https://www.indiapost.gov.in",
+    "sourceUrl": "https://www.indiapost.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify limit and rate.",
+    "tags": [
+      "senior citizen",
+      "savings",
+      "post office",
+      "scss"
+    ]
+  },
+  {
+    "schemeCode": "MP044",
+    "slug": "public-provident-fund-ppf",
+    "name": "Public Provident Fund (PPF)",
+    "shortDescription": "Long-term tax-advantaged savings account with 15-year maturity.",
+    "sector": "postal",
+    "level": "central",
+    "states": [],
+    "ministry": "Department of Posts / Ministry of Finance",
+    "department": "Department of Posts / Ministry of Finance",
+    "targetBeneficiary": "Resident individuals",
+    "eligibilityText": "Resident Indian individuals (one account per person); minor accounts via guardian.",
+    "benefits": "Deposit Rs 500 to Rs 1.5 lakh per year; interest rate notified quarterly.",
+    "incomeLimitText": "None",
+    "applicationMode": "Post office / Bank",
+    "applicationSteps": [
+      "Visit post office or bank",
+      "Fill PPF account form",
+      "Make initial deposit"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "PAN card",
+        "required": true
+      },
+      {
+        "name": "Passport size photograph",
+        "required": true
+      },
+      {
+        "name": "Nomination form",
+        "required": true
+      }
+    ],
+    "criteria": {},
+    "applyUrl": "https://www.indiapost.gov.in",
+    "officialUrl": "https://www.indiapost.gov.in",
+    "sourceUrl": "https://www.indiapost.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify limits and current rate.",
+    "tags": [
+      "ppf",
+      "savings",
+      "tax saving",
+      "post office"
+    ]
+  },
+  {
+    "schemeCode": "MP045",
+    "slug": "national-savings-certificate-nsc",
+    "name": "National Savings Certificate (NSC)",
+    "shortDescription": "5-year fixed-income savings certificate sold through post offices.",
+    "sector": "postal",
+    "level": "central",
+    "states": [],
+    "ministry": "Department of Posts / Ministry of Finance",
+    "department": "Department of Posts / Ministry of Finance",
+    "targetBeneficiary": "Resident individuals",
+    "eligibilityText": "Resident Indian adults (and minors via guardian).",
+    "benefits": "Minimum investment Rs 1,000; no maximum limit; rate notified quarterly.",
+    "incomeLimitText": "None",
+    "applicationMode": "Post office",
+    "applicationSteps": [
+      "Visit post office",
+      "Fill NSC application",
+      "Pay amount and receive certificate"
+    ],
+    "documents": [
+      {
+        "name": "Aadhaar card",
+        "required": true
+      },
+      {
+        "name": "PAN card",
+        "required": true
+      },
+      {
+        "name": "Passport size photograph",
+        "required": true
+      }
+    ],
+    "criteria": {},
+    "applyUrl": "https://www.indiapost.gov.in",
+    "officialUrl": "https://www.indiapost.gov.in",
+    "sourceUrl": "https://www.indiapost.gov.in",
+    "status": "not_verified",
+    "isActive": true,
+    "verified": false,
+    "verificationLevel": "L0 - Draft from general knowledge; must be verified on official source",
+    "verificationNotes": "Verify rate and tenure.",
+    "tags": [
+      "nsc",
+      "savings",
+      "post office",
+      "certificate"
+    ]
+  }
+]

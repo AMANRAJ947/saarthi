@@ -1,0 +1,9 @@
+# Local MongoDB only:  docker compose up -d
+services:
+  mongo:
+    image: mongo:7
+    container_name: saarthi-mongo
+    ports: ["27017:27017"]
+    volumes: ["saarthi-mongo-data:/data/db"]
+volumes:
+  saarthi-mongo-data:
