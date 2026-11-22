@@ -49,7 +49,7 @@ saarthi/
 ### 2. Backend
 ```bash
 cd backend
-copy .env.example .env        # macOS/Linux: cp .env.example .env
+copy .env        # macOS/Linux: cp .env.example .env
 ```
 Edit `backend/.env`:
 ```
