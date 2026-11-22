@@ -5,7 +5,7 @@ It starts with **45 Madhya Pradesh and central schemes**, loaded from an Excel s
 
 | | |
 |---|---|
-| **Live frontend** | `https://YOUR-SITE.netlify.app` *(replace with your Netlify address)* |
+| **Live frontend** | `https://epics2026.netlify.app` |
 | **Live backend** | https://saarthi-mybw.onrender.com (check: `/api/health`) |
 | **Stack** | React + Vite + Tailwind - Node.js + Express - MongoDB Atlas |
 | **Hosting** | Netlify (frontend) - Render (backend) - MongoDB Atlas (database), all on free tiers |
