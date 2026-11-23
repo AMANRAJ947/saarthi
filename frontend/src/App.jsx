@@ -16,6 +16,18 @@ function Private({ children }) {
   return user ? children : <Navigate to="/login" replace />;
 }
 
+// Banner shown only on the home page.
+// Image file must be at: frontend/public/images/bgweb.jpg
+function HomeBanner() {
+  return (
+    <img
+      src="/images/bgweb.jpg"
+      alt="Farming, education, jobs, finance, mothers and children, elderly care, housing and post services"
+      className="mb-6 h-40 w-full rounded-2xl object-cover object-center shadow-sm sm:h-auto"
+    />
+  );
+}
+
 export default function App() {
   const { t } = useApp();
   return (
@@ -23,7 +35,15 @@ export default function App() {
       <Navbar />
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route
+            path="/"
+            element={
+              <>
+                <HomeBanner />
+                <Home />
+              </>
+            }
+          />
           <Route path="/find" element={<FindSchemes />} />
           <Route path="/schemes" element={<Explore />} />
           <Route path="/schemes/:slug" element={<SchemeDetail />} />
