@@ -24,7 +24,7 @@ export default function App() {
       <div
         aria-hidden="true"
         className="fixed inset-0 -z-10 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/images/bg2.jpg')" }}
+        style={{ backgroundImage: "url('/images/bg3.jpg')" }}
       />
       <Navbar />
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6">
