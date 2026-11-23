@@ -16,34 +16,20 @@ function Private({ children }) {
   return user ? children : <Navigate to="/login" replace />;
 }
 
-// Banner shown only on the home page.
-// Image file must be at: frontend/public/images/bgweb.jpg
-function HomeBanner() {
-  return (
-    <img
-      src="/images/bgweb.jpg"
-      alt="Farming, education, jobs, finance, mothers and children, elderly care, housing and post services"
-      className="mb-6 h-40 w-full rounded-2xl object-cover object-center shadow-sm sm:h-auto"
-    />
-  );
-}
-
 export default function App() {
   const { t } = useApp();
   return (
     <div className="flex min-h-screen flex-col">
+      {/* Site-wide background. Image file: frontend/public/images/bg2.jpg */}
+      <div
+        aria-hidden="true"
+        className="fixed inset-0 -z-10 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/images/bg2.jpg')" }}
+      />
       <Navbar />
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-6">
         <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <HomeBanner />
-                <Home />
-              </>
-            }
-          />
+          <Route path="/" element={<Home />} />
           <Route path="/find" element={<FindSchemes />} />
           <Route path="/schemes" element={<Explore />} />
           <Route path="/schemes/:slug" element={<SchemeDetail />} />
